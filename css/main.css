@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    max-width: 30rem;
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    background-color: #3E3E3C;
+    color: white;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+   min-height:100%;
+   position:relative;
+}
+
+.img {
+    background-image: url(../img/bicycle.jpg);
+    background-color: #096D7D;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30vh;
+}
+
+.tag-line {
+    font-size: 2rem;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    margin: 0 0 2rem 0;
+    background-image: url(../img/texture.jpg);
+    background-color: #096D7D;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    width: 100%;
+    padding: 1rem;
+    color: #0D0D0D;
+}
+
+main {
+    padding-bottom: 50vh;
+}
+
+button {
+    font-size: 1.1rem;
+    font-weight: 700;
+    display: block;
+    margin: 1rem auto;
+    width: 90%;
+    text-align: center;
+    padding: 1rem;
+    background-color: #666;
+    border: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 2px 0 rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    -webkit-transition: all .1s; /* Safari */
+    transition: all .1s;
+    color: white;
+}
+
+button:hover {
+    -ms-transform: translate(1px,1px);
+    -webkit-transform: translate(1px,1px);
+    transform: translate(1px,1px);
+    background-color: #0D0D0D;
+}
+
+main ul {
+    text-align: center;
+    font-size: 1rem;
+}
+
+footer {
+    background-color: #0D0D0D;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    color: #ccc;
+    height: 30vh;
+}
+
+.social {
+    list-style: none;
+    width: 80vw;
+    margin: 1rem auto;
+    text-align: center;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.social li {
+    display: inline-block;
+    margin: 1rem .5rem;
+}
+
+.social li a:link, .social li a:visited {
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.social li a:hover, .social li a:active {
+    color: #8C693E;
+}
+
+.info {
+    list-style: none;
+    margin: 1rem auto;
+    width: 90%;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+}
+
+.info li {
+    display: block;
+    margin: 1rem auto;
+}
+/*appended <li>*/
+main ul li {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    border: 5px solid #3E3E3C;
+    font-size: 1.1rem;
+    padding: .5rem;
+    background-image: url(../img/texture.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    background-color: #ccc;
+    color: #0D0D0D;
+}
+/*removeItem*/
+.new {
+    display: none;
+}
